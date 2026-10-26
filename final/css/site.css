@@ -338,6 +338,9 @@ dd,dt{min-width:0}dd a,.ftr a{overflow-wrap:anywhere}
 @media (max-width:900px){.hero-art .badge,.hero-brush{display:none}}
 @media (max-width:1280px){.badge--a{left:0}.badge--b{right:0}.hero-brush{left:4%}}
 @media (max-width:1100px){.nav,.hdr-cta{display:none}.menu-btn{display:grid;place-items:center}.mnav{display:block;border-top:1px solid var(--line)}}
+/* menu link styles for 901-1100px too, and keep the closed menu hidden at every width */
+@media (max-width:1100px){.mnav a{display:block;padding:16px var(--gut);font:700 20px/1 var(--f-cond);letter-spacing:.08em;text-transform:uppercase;color:var(--cream);text-decoration:none;border-bottom:1px solid var(--line-soft)}}
+.mnav[hidden]{display:none!important}
 @media (max-width:1280px){.hdr-phone{display:none}}
 
 /* ---------- v5 polish: motion, rhythm, texture ---------- */
