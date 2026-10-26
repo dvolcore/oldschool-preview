@@ -281,7 +281,7 @@ h1,h2,h3{margin:0;text-wrap:balance}
 .cta-band .btn--ghost{color:var(--abyss);box-shadow:inset 0 0 0 1.5px var(--abyss)}
 .ftr{background:var(--abyss);border-top:1px solid var(--line);padding-block:64px 32px;color:var(--muted);font-size:16px}
 .ftr-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:40px}
-.ftr h4{margin:0 0 14px;font:700 14px/1 var(--f-cond);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.ftr h4,.ftr .ftr-h{margin:0 0 14px;font:700 14px/1 var(--f-cond);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
 .ftr ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .ftr a{color:var(--text);text-decoration:none}
 .ftr a:hover{color:var(--gold-hi)}
